@@ -13,6 +13,6 @@ class TetrisBoard {
         std::vector<std::vector<Tile>> board;
         std::string player;
         TetrisBoard (int w, int h);
-        std::vector<std::vector<Tile>> init();
+        int init();
 };
 #endif
