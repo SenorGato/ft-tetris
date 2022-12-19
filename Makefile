@@ -1,8 +1,8 @@
 #OBJS defines files to compile
-OBJS = ft-tetris.cpp 
+OBJS = ft-tetris.cpp TetrisBoard.cpp Tile.cpp 
 CC = g++
 COMPILER_FLAGS = -g -Wall -Wextra -Wpedantic -std=c++17
-LINKER_FLAGS =  
+LINKER_FLAGS = 
 OBJ_NAME = ft-tetris 
 
 all : $(OBJS) 
